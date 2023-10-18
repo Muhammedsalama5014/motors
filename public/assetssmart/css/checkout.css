@@ -1,0 +1,118 @@
+/* Checkout Hero Section CSS Start */
+
+.checkout-hero-wrapper {
+  padding: 200px 0 60px;
+}
+
+.checkout-step {
+  padding: 0 50px;
+}
+
+.checkout-step span {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.checkout-step p {
+  font-family: "Montserrat";
+  font-size: 16px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background: var(--primary);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100%;
+  margin-bottom: 0;
+}
+
+.checkout-step img,
+.checkout-step p {
+  margin-right: 16px;
+}
+
+/* Checkout Hero Section CSS End */
+
+/* Checkout Section CSS Start */
+
+.checkout-form-wrapper {
+  padding: 35px 85px 100px;
+  margin-bottom: 100px;
+  background: #f7f7f7;
+  border-radius: 8px;
+}
+
+.checkout-form-wrapper p,
+.checkout-form-wrapper p a {
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+.checkout-form .form-input-field {
+  padding-bottom: 20px;
+}
+
+.checkout-form .form-input-field label {
+  font-weight: 500;
+}
+
+.checkout-form .form-btn-field {
+  padding-top: 20px;
+}
+
+.checkout-form .outline-btn a img {
+  padding-right: 5px;
+}
+
+.checkout-form .fill-btn a img {
+  padding-left: 5px;
+}
+
+/* Checkout Section CSS End */
+
+/* Payment Method Tab CSS */
+
+.payment-method-buttons li {
+  padding: 0 30px 20px;
+}
+
+.payment-method-buttons .nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.payment-method-buttons .nav-link.active {
+  background: none;
+}
+
+.payment-method-buttons .nav-link span {
+  position: relative;
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  border: 0.5px solid #000000;
+  border-radius: 100%;
+}
+
+.payment-method-buttons .nav-link.active span {
+  border: 0.5px solid var(--primary);
+}
+
+.payment-method-buttons .nav-link.active span::after {
+  position: absolute;
+  content: "";
+  top: 3px;
+  left: 3px;
+  width: 12px;
+  height: 12px;
+  background: var(--primary);
+  border-radius: 100%;
+}

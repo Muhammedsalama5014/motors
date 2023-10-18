@@ -1,0 +1,125 @@
+/* Car Details Hero Section CSS Start */
+
+.car-hero-wrapper {
+  padding: 150px 0 0;
+}
+
+.car-hero-img img {
+  width: 100%;
+  min-height: 590px;
+  max-height: 590px;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.car-image img {
+  width: 100%;
+  min-height: 142px;
+  max-height: 142px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.car-details-text h3 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  color: #000000;
+  padding-right: 40px;
+  margin: 0;
+}
+
+.car-details-text span {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.5);
+  padding-left: 40px;
+}
+
+.car-details-text p {
+  font-size: 16px;
+  line-height: 130.19%;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 20px 0px;
+  margin: 0;
+}
+
+.fill-btn a {
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.car-price h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+/* Car Details Hero Section CSS End */
+
+/* Car Details Info Section CSS Start */
+
+.car-info-wrapper {
+  margin: 60px 0 100px;
+}
+
+.car-info {
+  background: rgba(217, 217, 217, 0.2);
+  padding: 60px 200px 160px 150px;
+}
+
+.car-info-tab-buttons {
+  border-bottom: 1px solid #000000;
+}
+
+.car-info-tab-buttons .nav-pills .nav-link {
+  position: relative;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.5) !important;
+  padding: 0 !important;
+  margin-right: 150px;
+  border-radius: 0 !important;
+}
+
+.car-info-tab-buttons .nav-pills .nav-link.active {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--primary) !important;
+  background: none;
+}
+
+.car-info-tab-buttons .nav-pills .nav-link.active::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -17px;
+  width: 150px;
+  height: 3px;
+  background: var(--primary);
+}
+
+.description-text li {
+  position: relative;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 10px 0 0 30px;
+}
+
+.description-text li::after {
+  position: absolute;
+  content: "";
+  width: 16px;
+  height: 16px;
+  top: 12px;
+  left: 0;
+  background: #fe9923;
+  border-radius: 100%;
+}
+
+/* Car Details Info Section CSS End */

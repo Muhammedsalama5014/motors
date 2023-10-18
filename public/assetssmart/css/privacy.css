@@ -1,0 +1,41 @@
+/* Privacy Policy Section CSS Start */
+
+.privacy-policy-wrapper {
+  padding-bottom: 100px;
+}
+
+.pt-50 {
+  padding-top: 50px;
+}
+
+.privacy-policy-content h4 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  padding: 10px 0;
+}
+
+.privacy-policy-content p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.policy-buttons {
+  padding-top: 100px;
+}
+
+/* Privacy Policy Section CSS End */
+
+/* Responsive CSS */
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .privacy-policy-content h4 {
+    font-size: 22px;
+  }
+
+  .fill-btn a,
+  .outline-btn a {
+    width: 150px;
+  }
+}

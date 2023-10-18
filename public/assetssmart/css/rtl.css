@@ -1,0 +1,79 @@
+.rtl{
+    direction : rtl !important;
+}
+.rtl .hero-content h6::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 2px;
+    background: #000000;
+}
+.hero-content h6{
+    padding-right: 75px;
+}
+
+.product-category h4::after {
+    position: absolute;
+    content: "";
+    top: 43px;
+    right: 0px !important;
+    width: 58px;
+    height: 6px;
+    background: rgb(94, 69, 42);
+    border-radius: 30px;
+}
+
+.cars-categories p::after, .car-filter p::after, .color-filter p::after, .price-filter p::after {
+    position: absolute;
+    content: "";
+    top: 32px;
+    right: 0px !important;
+    width: 100px;
+    height: 2px;
+    background: rgb(94, 69, 42);
+}
+
+.car-tags p::after {
+    position: absolute;
+    content: "";
+    top: 32px;
+    right: 0px;
+    width: 50px;
+    height: 2px;
+    background: rgb(94, 69, 42);
+}
+. pe-2{
+    padding-left: 0.5rem !important;
+}
+.description-text li::after {
+    position: absolute;
+    content: "";
+    width: 16px;
+    height: 16px;
+    top: 12px;
+    right: 0;
+    background: #fe9923;
+    border-radius: 100%;
+}
+.description-text li {
+    position: relative;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.8);
+    padding: 10px 25px 0 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

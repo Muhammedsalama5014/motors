@@ -1,0 +1,95 @@
+/* Account Section CSS Start */
+
+/* Account Sidebar Section CSS Start */
+
+.account-wrapper {
+  padding: 60px 0 110px;
+}
+
+.account-sidebar h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--primary);
+  margin-bottom: 40px;
+}
+
+.account-sidebar-menu ul li {
+  display: flex;
+  width: 295px;
+  padding: 13px 0;
+  margin: 15px 0;
+  background: #f4f4f4;
+  border-radius: 4px;
+}
+
+.account-sidebar-menu ul li.active {
+  background: var(--primary);
+}
+
+.account-sidebar-menu ul li img {
+  padding: 0px 22px;
+  margin-top: -4px;
+}
+
+.account-sidebar-menu ul li a {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  color: #878787;
+}
+
+.account-sidebar-menu ul li.active a {
+  color: #ffffff;
+}
+
+/* Account Sidebar Section CSS End */
+
+.account-form-wrapper {
+  width: 100%;
+}
+
+.account-details {
+  background: #fbfaf8;
+  padding: 35px 55px;
+}
+
+.account-details h4 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fe9923;
+  margin-bottom: 50px;
+}
+
+.account-form-title h6 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.account-form-title hr {
+  border-top: 0.5px solid rgba(0, 0, 0, 0.5);
+  margin: 10px 0;
+}
+
+.account-form-text {
+  max-width: 220px;
+  width: 100%;
+  margin-right: 40px;
+}
+
+.account-form-text p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.form-input-field label {
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+/* Account Section CSS End */

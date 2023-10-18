@@ -1,0 +1,471 @@
+/* Hero Section CSS Start */
+
+.hero-wrapper {
+  position: relative;
+  background: #eaeaea;
+  padding: 150px 0 200px;
+}
+
+.hero-content h6 {
+  position: relative;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  padding-left: 75px;
+  color: #000000;
+}
+
+.hero-content h6::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 60px;
+  height: 2px;
+  background: #000000;
+}
+
+.hero-content h1 {
+  font-weight: 800;
+  font-size: 46px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: var(--primary);
+  padding: 5px 0;
+}
+
+.hero-btn {
+  padding-top: 25px;
+}
+
+.hero-btn a {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #ffffff;
+  background: var(--primary);
+  padding: 16px 60px;
+  border-radius: 20px;
+}
+
+.hero-img {
+  position: absolute;
+  margin-bottom: 50px;
+}
+
+.hero-img img {
+  max-width: 90%;
+  float: right;
+}
+
+/* Hero Section CSS End */
+
+/* Rent Process Section CSS Start */
+
+.rent-process-wrapper {
+  position: relative;
+  margin-top: -60px;
+}
+
+.rent-process-container {
+  max-width: 80%;
+  width: 100%;
+  margin: auto;
+  background: #ffffff;
+  border: 1px solid #f2f2f2;
+  border-radius: 5px;
+  padding: 50px 60px;
+}
+
+.rent-process-card {
+  padding: 10px 0;
+}
+
+.rent-line::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: -5px;
+  width: 1px;
+  height: 100%;
+  background: #e9e9e9;
+}
+
+.rent-process-card h6 {
+  font-family: "Jost", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: -0.02em;
+  color: #151515;
+  margin: 0;
+}
+
+.rent-process-card p {
+  font-size: 15px;
+  line-height: 18px;
+  color: #646464;
+  margin: 0;
+}
+
+/* Rent Process Section CSS End */
+
+/* Header Part CSS End */
+
+/* Main Part HTML Start */
+
+/* Rental Products Section CSS Start */
+
+.rental-products-wrapper {
+  padding: 50px 0;
+}
+
+.rental-products-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.rental-products-title h4 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 145.19%;
+  letter-spacing: 0.03em;
+  color: #151515;
+}
+
+.rental-products-title a {
+  font-family: "Jost", sans-serif;
+  line-height: 25px;
+  text-decoration-line: underline;
+  color: #4e4e4e;
+}
+
+.rental-products-slide img {
+  border-radius: 15px;
+}
+
+span.rental-pdct-disc {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  font-size: 15px;
+  color: #ffffff;
+  background: var(--primary);
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+
+.rental-products-slide h6 {
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #4e4e4e;
+  padding-top: 16px;
+}
+
+.rental-products-slide p {
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 23px;
+  color: #272727;
+}
+
+.rental-products-wrapper .owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 30px !important;
+}
+
+.rental-products-wrapper .owl-carousel .owl-dots.disabled {
+  display: block !important;
+}
+
+.rental-products-wrapper .owl-dot span {
+  width: 15px !important;
+  height: 15px !important;
+  background: #f8f8f8 !important;
+}
+
+.rental-products-wrapper .owl-dot.active span {
+  background: var(--primary) !important;
+}
+
+/* Rental Products Section CSS End */
+
+/* About Section CSS Start */
+
+.about-wrapper {
+  padding: 50px 0;
+  background: #f8f8f8;
+}
+
+.about-content h4 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 130.69%;
+  letter-spacing: 0.03em;
+  color: #151515;
+  margin-bottom: 15px;
+}
+
+.about-content p {
+  text-align: justify;
+}
+
+.about-content p a {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-decoration-line: underline;
+  color: var(--primary);
+}
+
+.about-social a {
+  padding-right: 20px;
+}
+
+/* About Section CSS End */
+
+/* Car Category Section CSS Start */
+
+.car-category-wrapper {
+  padding: 50px 0;
+}
+
+.car-category-container {
+  display: flex;
+  justify-content: center;
+}
+
+.car-category-left {
+  width: 50%;
+}
+
+.car-category-right {
+  width: 50%;
+  margin-left: -160px;
+}
+
+.car-category-buttons {
+  padding-bottom: 30px;
+}
+
+.car-cat-btn {
+  position: relative;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  padding-left: 20px;
+  margin-right: 10px;
+  color: #787878;
+}
+
+.car-cat-btn.active {
+  color: var(--primary);
+}
+
+.car-cat-btn::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  background: transparent;
+  border: 1px solid #999999;
+  border-radius: 100%;
+}
+
+.car-cat-btn.active::before {
+  background: var(--primary);
+  border: none;
+}
+
+.car-category-left-wrapper {
+  background: url(../images/car-category-img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 50px;
+  border-radius: 10px;
+}
+
+.car-category-left-wrapper h5 {
+  font-family: "Jost", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 25px;
+  color: var(--primary);
+}
+
+.car-category-left-wrapper h2 {
+  font-family: "Jost", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+  color: #141412;
+}
+
+.car-category-left-wrapper p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #ffffff;
+  padding-right: 100px;
+  margin-bottom: 30px;
+}
+
+.car-category-left-wrapper a {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 15px;
+  color: #ffffff;
+  background: var(--primary);
+  padding: 16px 25px;
+  border-radius: 50px;
+}
+
+.car-category-left-wrapper a img {
+  padding-left: 5px;
+}
+
+.car-category-right img {
+  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Car Category Section CSS End */
+
+/* Requested Car Section CSS Start */
+
+.requested-car-wrapper {
+  padding: 40px 0;
+}
+
+.requested-car-title h4 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 130.69%;
+  letter-spacing: 0.03em;
+  color: #151515;
+}
+
+.requested-car-slider {
+  padding-top: 50px;
+}
+
+.requested-car-slide {
+  text-align: center;
+  padding: 0 10px;
+}
+
+.requested-car-content h5 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 130.69%;
+  letter-spacing: 0.03em;
+  color: #151515;
+  padding-top: 20px;
+}
+
+.requested-car-content a {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+.requested-car-content a:hover {
+  transition: all 0.3s ease-in-out;
+  color: var(--primary);
+}
+
+.requested-car-wrapper .owl-carousel .owl-nav.disabled {
+  display: block !important;
+}
+
+.requested-car-wrapper .owl-nav {
+  position: absolute;
+  top: -53px;
+  right: 0;
+}
+
+.requested-car-wrapper button.owl-prev,
+.requested-car-wrapper button.owl-next {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100% !important;
+  background: #ededed !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.requested-car-wrapper button.owl-prev:hover,
+.requested-car-wrapper button.owl-next:hover {
+  background: var(--primary) !important;
+}
+
+/* Requested Car Section CSS End */
+
+/* Clients Section CSS Start */
+
+.clients-wrapper {
+  background: #f8f8f8;
+  padding: 30px 0;
+}
+
+.clients-content h4 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 130.69%;
+  letter-spacing: 0.03em;
+  color: #151515;
+}
+
+.clients-content p {
+  padding-bottom: 40px;
+}
+
+.clients-img {
+  text-align: center;
+}
+
+/* Clients Section CSS End */
+
+/* Partner Section CSS Start */
+
+.partner-wrapper {
+  padding: 30px 0 30px;
+}
+
+.partner-title h4 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 130.69%;
+  letter-spacing: 0.03em;
+  color: #151515;
+}
+
+.partners {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+}
+
+.partners img {
+  justify-self: center;
+  margin: 20px 0;
+  padding-right: 20px;
+}
+
+/* Partner Section CSS End */
+
+/* Main Part HTML End */

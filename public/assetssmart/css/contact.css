@@ -1,0 +1,55 @@
+/* Contact Section CSS Start */
+
+.contact-wrapper {
+  background: #fafafa;
+  margin-top: 80px;
+  padding: 50px 0 30px;
+}
+
+.contact-form {
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+}
+
+.contact-details {
+  position: relative;
+  padding: 30px;
+  margin-top: -85px;
+  background: #eaeaea;
+  border-radius: 4px;
+}
+
+.contact-details p {
+  font-size: 16px;
+  padding: 0 25px;
+  color: #13110c;
+  margin-bottom: 5px;
+}
+
+.contact-info {
+  padding-left: 25px;
+}
+
+.contact-info ul li {
+  padding-top: 13px;
+}
+
+.contact-info ul li img {
+  padding-right: 15px;
+}
+
+.contact-info ul li a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.contact-map iframe {
+  max-width: 334px;
+  width: 100%;
+  height: 359px;
+  border-radius: 4px;
+}
+
+/* Contact Section CSS End */

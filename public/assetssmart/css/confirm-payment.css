@@ -1,0 +1,33 @@
+/* Confirm Payment Section CSS Start */
+
+.confirm-payment-wrapper {
+  max-width: 520px;
+  margin: auto;
+  padding: 200px 0 200px;
+  text-align: center;
+}
+
+.confirm-payment-content h4 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #026b20;
+  padding: 15px 0;
+}
+
+.confirm-payment-content span {
+  font-size: 16px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.confirm-payment-content span img {
+  padding-right: 10px;
+}
+
+.confirm-payment-content p {
+  font-size: 16px;
+  color: #000000;
+  padding: 30px 0;
+}
+
+/* Confirm Payment Section CSS End */

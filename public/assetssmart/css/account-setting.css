@@ -1,0 +1,19 @@
+.account-form {
+  padding: 0 100px 0 50px;
+}
+
+.password-form {
+  padding-right: 200px;
+}
+
+.account-details {
+  padding: 35px 0;
+}
+
+.account-details h4 {
+  padding-left: 50px;
+}
+
+.account-form-title h6 {
+  padding-left: 30px;
+}

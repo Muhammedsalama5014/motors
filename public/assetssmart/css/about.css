@@ -1,0 +1,49 @@
+.about-wrapper {
+  padding: 20px 0 100px;
+}
+
+.about-content h3 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 130.69%;
+  letter-spacing: 0.03em;
+  color: #151515;
+  margin-bottom: 15px;
+}
+
+.about-img {
+  padding: 30px 0;
+}
+
+.about-img img {
+  width: 100%;
+  min-height: 520px;
+  max-height: 520px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.about-car-steps-wrapper {
+  padding: 20px 50px 0;
+}
+
+.about-car-img {
+  width: 80px;
+}
+
+.about-car-text h4 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  color: var(--primary);
+}
+
+.about-car-text {
+  flex: 1;
+}
+
+.about-car-text span {
+  font-size: 16px;
+  color: #000000;
+}

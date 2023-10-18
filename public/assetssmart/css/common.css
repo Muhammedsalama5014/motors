@@ -1,0 +1,508 @@
+/* Base Styles CSS Start */
+
+/* Font */
+
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&family=Rubik:wght@300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: "Jost", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Colors */
+
+:root {
+  --primary: #fe9923;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  color: #6d6d6d;
+}
+
+.fill-btn a {
+  display: block;
+  width: 192px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  padding: 13px 0;
+  background: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 4px;
+}
+
+.outline-btn a {
+  display: block;
+  width: 192px;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--primary);
+  text-align: center;
+  padding: 13px 0;
+  background: transparent;
+  border: 1px solid var(--primary);
+  border-radius: 4px;
+}
+
+/* Base Styles CSS End */
+
+/* Header Part CSS Start */
+
+/* Navigation Section CSS Start */
+
+nav.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: #eaeaea;
+  padding: 20px 0;
+  z-index: 999;
+}
+
+.light-header {
+  background: #ffffff !important;
+}
+
+.navbar.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  box-shadow: 1px 1px 20px 0px #dddddd;
+  z-index: 999;
+  -webkit-animation: sticky 1.2s;
+  animation: sticky 1.2s;
+}
+
+@keyframes sticky {
+  from {
+    top: -100px;
+  }
+  to {
+    top: 0;
+  }
+}
+
+ul.navbar-nav {
+  padding-right: 250px;
+}
+
+.nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #252525 !important;
+  padding: 0 20px !important;
+}
+
+.navbar-toggler {
+  border: 0 !important;
+  margin-top: -15px;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+
+.toggler-icon {
+  width: 25px;
+  height: 2px;
+  background-color: #e74c3c;
+  display: block;
+  transition: all 0.2s;
+}
+
+.middle-bar {
+  margin: 5px auto;
+}
+
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .toggler-icon {
+  background-color: #151515;
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  ul.navbar-nav {
+    padding-right: 100px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .navbar-nav {
+    align-items: flex-start;
+    margin-top: 30px;
+  }
+
+  a.logo {
+    width: 220px;
+  }
+
+  .nav-link {
+    padding: 5px 0 !important;
+  }
+
+  .navbar-toggler {
+    padding-top: 18px;
+  }
+}
+
+/* Navigation Section CSS End */
+
+/* Header Bredcrumb Section CSS Start */
+
+.header-bredcrumb-wrapper {
+  padding: 120px 0 60px;
+  text-align: center;
+}
+
+.header-bredcrumb-wrapper h4 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--primary);
+  margin: 0;
+}
+
+.header-bredcrumb-menu ul li span {
+  font-size: 25px;
+  color: var(--primary);
+  padding: 0 10px;
+}
+
+.header-bredcrumb-menu ul li a {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+/* Header Bredcrumb Section CSS End */
+
+/* Footer Part CSS Start */
+
+.footer-wrapper {
+  background: #eaeaea;
+  padding-top: 100px;
+}
+
+.footer-about p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  color: #2b2b2b;
+  padding-top: 15px;
+}
+
+.footer-contact-details li {
+  padding: 5px 0;
+}
+
+.footer-contact-details li a {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: right;
+  color: #231f1f;
+}
+
+.footer-contact-details li a img {
+  padding-right: 10px;
+}
+
+.footer-nav h4 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  text-decoration-line: underline;
+  color: #000000;
+  padding-bottom: 10px;
+}
+
+.footer-menu li {
+  padding: 5px 0;
+}
+
+.footer-menu li img {
+  padding-right: 10px;
+}
+
+.footer-menu li a {
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  color: #000000;
+}
+
+.footer-newsletter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.footer-newsletter-text h5 {
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #231f1f;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.footer-newsletter-text h5 span {
+  color: var(--primary);
+}
+
+.footer-newsletter-form {
+  width: 50%;
+}
+
+.footer-newsletter-form form input {
+  width: 90%;
+  font-family: "Jost", sans-serif;
+  padding: 15px 30px;
+  background: #ffffff;
+  border: none;
+  border-radius: 50px 0 0 50px;
+}
+
+.footer-newsletter-form form input:focus {
+  outline: 0;
+}
+
+.footer-newsletter-form form button {
+  font-family: "Jost", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+  background: var(--primary);
+  padding: 15px 30px;
+  border: none;
+  border-radius: 0 50px 50px 0;
+}
+
+.footer-newsletter-form ::placeholder {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  color: #cbc8c8;
+}
+
+.footer-copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.copyright-text p {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #231f1f;
+  margin: 0;
+}
+
+.footer-wrapper hr {
+  margin: 0 !important;
+  border-top: 1px solid #ababab;
+}
+
+/* Footer Part CSS End */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .footer-newsletter {
+    flex-direction: column;
+  }
+
+  .footer-newsletter-form {
+    width: 75%;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .footer-about p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .footer-about p {
+    font-size: 16px;
+  }
+
+  .footer-menu li a {
+    font-size: 16px;
+  }
+
+  .footer-newsletter-form form button {
+    padding: 15px 20px;
+  }
+
+  .footer-newsletter,
+  .footer-copyright {
+    flex-direction: column;
+  }
+
+  .footer-newsletter-form {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .footer-newsletter-text h5 {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .footer-copyright {
+    text-align: center;
+  }
+}
+
+/* Form Related CSS : (I put these css here because we need these same css on many pages.) */
+
+.iti {
+  display: block;
+}
+
+.form-input-field {
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+.form-input-field.form-field-35 {
+  width: 35%;
+}
+
+.form-input-field.form-field-50 {
+  width: 50%;
+}
+
+.form-input-field.form-field-65 {
+  width: 65%;
+}
+
+.form-input-field label {
+  font-size: 16px;
+  color: #000000;
+  padding-bottom: 8px;
+}
+
+.form-input-field input,
+.form-input-field select {
+  width: 100%;
+  padding: 12px 15px;
+  color: rgba(0, 0, 0, 0.5);
+  background: transparent;
+  border: 0.5px solid #848484;
+  border-radius: 4px;
+}
+
+.form-input-field input:focus,
+.form-input-field select:focus,
+.form-input-field textarea:focus,
+.iti--allow-dropdown input[type="tel"]:focus {
+  outline: 0;
+}
+
+.iti--allow-dropdown input[type="tel"] {
+  width: 100%;
+  padding: 12px 18px 12px 50px !important;
+  border: 0.5px solid #848484;
+  border-radius: 4px;
+}
+
+.form-input-field textarea {
+  width: 100%;
+  height: 170px;
+  padding: 12px 15px;
+  background: transparent;
+  resize: none;
+  border: 0.5px solid #848484;
+  border-radius: 4px;
+}
+
+.form-input-field ::placeholder {
+  font-size: 15px;
+  color: rgba(24, 40, 81, 0.5);
+}
+
+.form-btn-field input {
+  display: block;
+  width: 130px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  padding: 13px 0;
+  background: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 4px;
+}

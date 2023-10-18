@@ -1,0 +1,42 @@
+/* Car Section CSS Start */
+
+.cars-wrapper {
+  padding-bottom: 100px;
+}
+
+.car-card {
+  padding-top: 50px;
+}
+
+.car-card-content {
+  padding-right: 60px;
+}
+
+.car-card-content h5 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 130.69%;
+  letter-spacing: 0.03em;
+  color: #151515;
+  padding-top: 20px;
+}
+
+.car-card-content a {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+.car-card-content a:hover {
+  transition: all 0.3s ease-in-out;
+  color: var(--primary);
+}
+
+/* Car Section CSS End */
+
+@media (max-width: 1399px) {
+  .car-card-content {
+    padding-right: 40px;
+  }
+}
